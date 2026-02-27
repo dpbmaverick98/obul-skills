@@ -23,21 +23,17 @@ Obul is the **universal API gateway for the agent economy**. It proxies requests
 
 | | Skill | Description |
 |---|---|---|
-| 🔗 | [obul-proxy](skills/obul-proxy/SKILL.md) | Proxy x402 requests through Obul with automatic payment handling |
-| 🌐 | [browserbase](skills/browserbase/SKILL.md) | Headless browser sessions for web scraping and automation |
-| 🦎 | [coingecko](skills/coingecko/SKILL.md) | Real-time crypto market data, token prices, and DEX analytics |
 | 🔥 | [firecrawl](skills/firecrawl/SKILL.md) | Web scraping, crawling, site mapping, search, and structured extraction |
-| 🧠 | [minimax](skills/minimax/SKILL.md) | MiniMax M2.5 chat completions with 200K context and reasoning |
+| 🔗 | [obul-proxy](skills/obul-proxy/SKILL.md) | Proxy x402 requests through Obul with automatic payment handling |
 | 🔍 | [x-search](skills/x-search/SKILL.md) | X/Twitter search, user profiles, and trending topics |
-| ⚡ | [zapper](skills/zapper/SKILL.md) | Multi-chain portfolio balances, token prices, and onchain data |
 
 ## Usage Example
 
 ```sh
-curl -X POST "https://proxy.obul.ai/proxy/https/www.browserbase.com/v1/sessions" \
+curl -s -X POST "https://proxy.obul.ai/proxy/https/firecrawl.x402endpoints.com/v1/scrape" \
   -H "Content-Type: application/json" \
   -H "x-obul-api-key: $OBUL_API_KEY" \
-  -d '{"projectId": "default"}'
+  -d '{"url": "https://example.com", "formats": ["markdown"]}'
 ```
 
 ## Claude Code Plugin
@@ -49,7 +45,7 @@ claude plugin marketplace add /path/to/obul-skills
 claude plugin install obul
 ```
 
-Available commands: `/obul:scrape`, `/obul:search`, `/obul:x-search`
+Available commands: `/obul:scrape`, `/obul:search`, `/obul:x-search`, `/obul:proxy`
 
 See [PLUGIN.md](PLUGIN.md) for full details.
 

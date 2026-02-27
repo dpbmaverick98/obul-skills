@@ -1,6 +1,6 @@
 # Obul Plugin for Claude Code
 
-Pay-per-use API access for Claude Code agents — web scraping, crypto data, X/Twitter search, headless browsers, and AI models. No external accounts needed, just an `OBUL_API_KEY`.
+Pay-per-use API access for Claude Code agents — web scraping, X/Twitter search, and generic x402 proxy. No external accounts needed, just an `OBUL_API_KEY`.
 
 ## Prerequisites
 
@@ -31,12 +31,8 @@ claude plugin install obul
 | Skill | Description | Pricing |
 |---|---|---|
 | obul-firecrawl | Web scraping, crawling, site mapping, search, structured extraction | $0.001–$0.01 |
-| obul-browserbase | Headless browser sessions with Chrome DevTools Protocol | $0.01–$0.05 |
-| obul-coingecko | Crypto prices, on-chain token data, DEX pool analytics | $0.01 |
-| obul-minimax | MiniMax M2.5 chat completions (200K context, reasoning) | $0.001 |
 | obul-proxy | Generic x402 proxy for any supported upstream service | Varies |
 | obul-x-search | X/Twitter search, user profiles, tweets, timelines, trends | $0.001 |
-| obul-zapper | Multi-chain portfolio balances, token prices, onchain search | $0.005–$0.01 |
 
 ## Commands
 
@@ -45,6 +41,7 @@ claude plugin install obul
 | `/obul:scrape <url>` | Scrape a URL to clean markdown | $0.001 |
 | `/obul:search <query>` | Web search with scraped results | $0.002 |
 | `/obul:x-search <query>` | Search X/Twitter for tweets | $0.001 |
+| `/obul:proxy <url>` | Proxy any request to an x402 API endpoint | Varies |
 
 ## How It Works
 
