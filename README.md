@@ -1,4 +1,4 @@
-# Obul APIs
+# Obul API Marketplace
 
 Obul is the **universal API gateway for the agent economy**. It proxies requests to x402-enabled APIs and handles payment automatically — no crypto wallet, no USDC, no gas fees. One `OBUL_API_KEY`, consolidated billing, scoped keys with spending caps. Pay-per-use access to any supported service.
 
@@ -24,13 +24,13 @@ Obul is the **universal API gateway for the agent economy**. It proxies requests
 | Category | APIs |
 |----------|------|
 | **Web Scraping** | Firecrawl, Browserbase, Zyte, Minifetch, Aviato, Fiber, Notte, Nyne, Olostep, Riveter, Scrapegraph, x402engine-web |
-| **Web Search** | Firecrawl Search, Exa, Jina, Parallel, Perplexity, Tavily, SearchAPI, Valyu |
+| **Web Search** | Firecrawl Search, Exa, Jina, Parallel, Perplexity, Tavily, SearchAPI, Valyu, Sybil |
 | **Lead Enrichment** | StableEnrich, BrandDev, Coresignal, OpenMart, PredictLeads, SixtyFour, Tomba, Apollo, Hunter, Logo |
 | **Social Media** | Tweetx402, Neynar, Reddit, Scrape-Creators |
 | **Blockchain/DeFi** | CoinGecko, HeyElsa, Zapper, SlamAI, Silverback, Blocksec, Ordiscan, Dome, x402engine-chain |
 | **Image/Audio/Video** | FreePik, x402engine-image, x402engine-audio, DTelecom, AIBeats, Genbase, Nano-Banana, Nano-Banana-2, Tavus, Zai |
 | **Security/Risk** | Orac, BlackSwan |
-| **Infrastructure** | Proxy, Pinata, Cnvrting, DIDit, Textbelt |
+| **Infrastructure** | Proxy, Pinata, Cnvrting, DIDit, Textbelt, Chronos |
 | **Weather** | Precip |
 
 ## Use Cases

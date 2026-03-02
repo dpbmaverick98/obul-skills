@@ -429,6 +429,20 @@
       "skill": "obul-zai",
       "description": "GLM models for chat, translation, image/video generation, web search",
       "homepage": "https://zhipuai.cn"
+    },
+    {
+      "name": "chronos",
+      "category": "infrastructure",
+      "skill": "obul-chronos",
+      "description": "Timezone conversion and current time service, IANA timezone listings",
+      "homepage": "https://mavs-agent-army.fly.dev/api/chronos"
+    },
+    {
+      "name": "sybil",
+      "category": "web-search",
+      "skill": "obul-sybil",
+      "description": "Unified search API combining Exa web search and xAI Grok capabilities",
+      "homepage": "https://mavs-agent-army.fly.dev/api/sibyl"
     }
   ]
 }
